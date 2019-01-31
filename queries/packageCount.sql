@@ -1,0 +1,1 @@
+SELECT Package, COUNT(Package) as total_Package FROM Experiences GROUP BY Package ORDER BY total_Package

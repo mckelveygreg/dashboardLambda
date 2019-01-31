@@ -1,0 +1,1 @@
+SELECT Marker, COUNT(Marker) as total_marker FROM Taps GROUP BY Marker ORDER BY total_marker

@@ -1,0 +1,1 @@
+SELECT monthname(ViewStart), COUNT(month(ViewStart)) FROM Experiences WHERE year(ViewStart) = 2018  GROUP BY month(ViewStart)

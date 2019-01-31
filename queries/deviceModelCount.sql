@@ -1,0 +1,1 @@
+SELECT DeviceModel, COUNT(DeviceModel) as total_DeviceModel FROM Experiences GROUP BY DeviceModel ORDER BY total_DeviceModel
